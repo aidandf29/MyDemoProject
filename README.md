@@ -105,11 +105,4 @@ A test execution video will be added for quick review.
 
 ---
 
-## 📎 Notes
 
-This project follows clean automation architecture, ensuring:
-
-- No hardcoded waits (`Thread.sleep`) — using smart waits instead
-- Scalable folder structure
-- Clear separation of feature files & step logic
-- Easy to extend with future scenarios
