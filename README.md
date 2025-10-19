@@ -1,4 +1,4 @@
-# 🚀 Stockbit QA Automation - Mobile & API
+# 🚀 QA Automation - Mobile & API
 
 ![Java](https://img.shields.io/badge/Java-11-blue)
 ![Maven](https://img.shields.io/badge/Maven-3.9.11-orange)
@@ -52,7 +52,7 @@ Using endpoint: `https://fakerapi.it/api/v1/companies`
 ## 📁 **Project Structure**
 
 ```
-stockbit-qa-automation
+MyDemoProject
 │
 ├── src/test/java
 │   ├── features/             # Gherkin feature files (UI & API)
