@@ -13,7 +13,7 @@ public class DriverHooks {
 
     public static AppiumDriver driver;
 
-    @Before
+    @Before("@UI")
     public void setUp() throws MalformedURLException {
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability("autoGrantPermissions", true);
@@ -29,7 +29,7 @@ public class DriverHooks {
         driver = new AndroidDriver(url, cap);
     }
 
-    @After
+    @After("@UI")
     public void tearDown() {
         if (driver != null) {
             driver.quit();

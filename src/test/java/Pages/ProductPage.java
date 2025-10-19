@@ -15,7 +15,7 @@ public class ProductPage {
     private final By cartIcon = By.id("com.saucelabs.mydemoapp.android:id/cartIV");
 
     public void openBackpackProduct() {
-        WaitHelper.waitForElement(DriverHooks.driver, backpackProduct, 5);
+        WaitHelper.waitForElement(DriverHooks.driver, backpackProduct, 1);
         DriverHooks.driver.findElement(backpackProduct).click();
     }
 

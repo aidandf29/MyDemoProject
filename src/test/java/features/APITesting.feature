@@ -1,4 +1,4 @@
-
+@API
 Feature: API Testing for FakerAPI Companies
 
   @QuantityValidation

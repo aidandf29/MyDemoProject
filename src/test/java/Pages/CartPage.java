@@ -10,7 +10,7 @@ public class CartPage {
     private final By cartQty = By.id("com.saucelabs.mydemoapp.android:id/noTV");
 
     public String getProductName() {
-        WaitHelper.waitForElement(DriverHooks.driver, cartProductName, 5);
+        WaitHelper.waitForElement(DriverHooks.driver, cartProductName, 1);
         return DriverHooks.driver.findElement(cartProductName).getText();
     }
 

@@ -1,4 +1,4 @@
-
+@UI
 Feature: Validate cart update flow in My Demo App
 
   Scenario: User adds product to cart with specific quantity
